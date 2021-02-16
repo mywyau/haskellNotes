@@ -91,7 +91,7 @@ module BasicsAndSetup where
 -- double [1,2,3]
 
   tuple1 = (1, "second value")  
---  can have different typed element unlike a a list
+--  can have different typed element unlike a list
 
   firstValue = fst tuple1
   secondValue = snd tuple1
@@ -99,5 +99,5 @@ module BasicsAndSetup where
   donuts = ["custard donut", "chocolate donut", "iced donut", "jam donut", "yum yums", "wasabi donut"] 
     
   headAndLength :: [a] -> (a, Int)
-  headAndLength yourList = (head yourList, length yourList) 
+  headAndLength yourList = (head yourList, length yourList)
   

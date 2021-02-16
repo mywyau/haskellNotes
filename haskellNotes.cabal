@@ -1,17 +1,13 @@
 cabal-version:       2.4
-name:                learn4haskell
+name:                haskellNotes
 version:             0.0.0.0
 synopsis:            Learn Haskell basics in 4 pull requests
-description:
-    Learn Haskell basics in 4 pull requests.
-    See [README.md](https://github.com/kowainik/learn4haskell#learn4haskell) for more details.
-homepage:            https://github.com/kowainik/learn4haskell
-bug-reports:         https://github.com/kowainik/learn4haskell/issues
+description:         Mikey's Haskell Nots
 license:             MPL-2.0
 license-file:        LICENSE
-author:              Veronika Romashkina, Dmitrii Kovanikov
-maintainer:          Kowainik <xrom.xkov@gmail.com>
-copyright:           2020 Kowainik
+author:              Mikey
+maintainer:          Mikey
+copyright:           2020 Mikey Yau
 build-type:          Simple
 extra-doc-files:     README.md
                      CHANGELOG.md
@@ -19,7 +15,7 @@ tested-with:         GHC == 8.10.2
 
 source-repository head
   type:                git
-  location:            https://github.com/kowainik/learn4haskell.git
+  location:            ??? git url for repo
 
 common common-options
   build-depends:       base ^>= 4.14.0.0
